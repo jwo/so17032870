@@ -1,3 +1,18 @@
 == README
 
 Created for Stack Overflow 17032870
+
+== Steps to Reproduce
+
+1. clone
+2. rake db:migrate db:seed
+3. rails s
+4. http://0.0.0.0:3000
+5. (see the list of 4 languages)
+6. Go to http://0.0.0.0:3000/language
+7. Add a new language
+8. http://0.0.0.0:3000
+9. You do not see the new languages
+10. Wait 5 minutes
+11. http://0.0.0.0:3000
+12. You see your new language
